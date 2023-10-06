@@ -1,12 +1,10 @@
-# Astro Starter Kit: Blog
+# Wienecke.io: Blog
 
 ```sh
-npm create astro@latest -- --template blog
+bun start
 ```
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/blog/devcontainer.json)
-
-![blog](https://github.com/withastro/astro/assets/2244813/ff10799f-a816-4703-b967-c78997e8323d)
 
 ## 🚀 Project Structure
 
@@ -20,4 +18,4 @@ Any static assets, like images, can be placed in the `public/` directory.
 
 ## Credit
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+This theme is based off of the [Bear Blog](https://github.com/HermanMartinus/bearblog/).
