@@ -59,6 +59,13 @@ import { SITE_TITLE } from '../consts';
 	.social-links a {
 		display: flex;
 	}
+	@media (min-width: 720px) {
+		.internal-links {
+			position: absolute;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
 	@media (max-width: 720px) {
 		.social-links {
 			display: none;
