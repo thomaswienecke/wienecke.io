@@ -1,23 +1,26 @@
 ---
+import Base from '../layouts/Base.astro';
 import Layout from '../layouts/BlogPost.astro';
 ---
 
-<Layout
-	title="About me"
-	description="About me and my site"
-	pubDate={new Date('October 06 2023')}
->
-	<p>
-		My name is Thomas and I'm passionate about computer science, especially cybersecurity, devops and homelabs. 
-		In addition I enjoy cooking vegan food 🥘.
-	</p>
-	<p>
-		I'm currently pursuing a Master's degree in Computer Science at Karlsruhe Institute of Technology (KIT) 
-		while working as a student at abusix where I am involved in building a network security platform.
-	</p>
-	<p>
-		During my free time, I work on my homelab or engage in CTFs. 
-		If you are interested in cybersecurity, I recommend checking out <a href="https://kitctf.de" target="_blank">KITCTF</a>, 
-		the university group in which I participate.
-	</p>
-</Layout>
+<Base>
+	<Layout
+		title="About me"
+		description="About me and my site"
+		pubDate={new Date('October 06 2023')}
+	>
+		<p>
+			My name is Thomas and I'm passionate about computer science, especially cybersecurity, devops and homelabs. 
+			In addition I enjoy cooking vegan food 🥘.
+		</p>
+		<p>
+			I'm currently pursuing a Master's degree in Computer Science at Karlsruhe Institute of Technology (KIT) 
+			while working as a student at abusix where I am involved in building a network security platform.
+		</p>
+		<p>
+			During my free time, I work on my homelab or engage in CTFs. 
+			If you are interested in cybersecurity, I recommend checking out <a href="https://kitctf.de" target="_blank">KITCTF</a>, 
+			the university group in which I participate.
+		</p>
+	</Layout>
+</Base>

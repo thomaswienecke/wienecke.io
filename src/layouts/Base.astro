@@ -1,0 +1,15 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <script>
+            import * as Sentry from '@sentry/browser';
+
+            Sentry.init({
+                dsn: import.meta.env.SENTRY_PROJECT_KEY,
+            });
+        </script>
+    </head>
+    <body>
+        <slot/>
+    </body>
+</html>
